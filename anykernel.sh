@@ -33,14 +33,27 @@ ramdisk_compression=auto;
 set_perm_recursive 0 0 755 755 $ramdisk/*;
 # set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
+ui_print ""
+ui_print ""
 ui_print " **********************disclaimer*********************"
 ui_print ""
-ui_print "  This kernel is a work in progress.";
+ui_print "  This kernel is a work in progress."
 ui_print "  No guarantees or warranties are given or implied."
 ui_print "  you are choosing to make these modifications,"
 ui_print "  use at your own risk."
 ui_print ""
 ui_print " *****************************************************"
+ui_print ""
+ui_print ""
+ui_print " *****************************************************"
+ui_print ""
+ui_print "  DO NOT FLASH ON STOCK ROM"
+ui_print ""
+ui_print "  DO NOT FLASH WITH OTHER SPECTRUM MODS/TWEAKS/ROMS ETC."
+ui_print ""
+ui_print " *****************************************************"
+ui_print ""
+ui_print ""
 
 ## AnyKernel install
 dump_boot;
