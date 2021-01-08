@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Dark-Eclipse-Kernel-v2.0-beta
+kernel.string=Sofia-Dark-Eclipse-Kernel-v2.1-beta
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -37,7 +37,7 @@ ui_print ""
 ui_print ""
 ui_print " **********************disclaimer*********************"
 ui_print ""
-ui_print "  This kernel is a work in progress."
+ui_print '  Everything from this project is provided "as is".'
 ui_print "  No guarantees or warranties are given or implied."
 ui_print "  you are choosing to make these modifications,"
 ui_print "  use at your own risk."
@@ -54,6 +54,10 @@ ui_print ""
 ui_print " *****************************************************"
 ui_print ""
 ui_print ""
+ui_print "Installing Spectrum Profiles..."
+ui_print ""
+ui_print ""
+
 
 ## AnyKernel install
 dump_boot;
